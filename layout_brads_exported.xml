@@ -36,13 +36,18 @@
    <rebind input="js2_y"/>
   </action>
   <action name="v_toggle_relative_mouse_mode">
-   <rebind input="kb1_f14"/>
+   <rebind input="kb1_f8"/>
   </action>
   <action name="v_toggle_yaw_roll_swap">
    <rebind input="js1_button5"/>
   </action>
   <action name="v_yaw">
    <rebind input="js1_rotz"/>
+  </action>
+ </actionmap>
+ <actionmap name="spaceship_defensive">
+  <action name="v_weapon_countermeasure_decoy_launch">
+   <rebind input="mo1_mouse4"/>
   </action>
  </actionmap>
 </ActionMaps>
