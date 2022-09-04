@@ -17,8 +17,17 @@
  </options>
  <modifiers />
  <actionmap name="spaceship_movement">
+  <action name="v_afterburner">
+   <rebind input="js2_button2"/>
+  </action>
+  <action name="v_ifcs_toggle_speed_limiter">
+   <rebind input="kb1_lshift"/>
+  </action>
   <action name="v_roll">
    <rebind input="js1_x"/>
+  </action>
+  <action name="v_strafe_forward">
+   <rebind input="js2_button1"/>
   </action>
   <action name="v_strafe_lateral">
    <rebind input="js2_x"/>
