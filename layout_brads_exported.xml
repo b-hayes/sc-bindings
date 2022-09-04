@@ -35,6 +35,9 @@
   <action name="v_strafe_vertical">
    <rebind input="js2_y"/>
   </action>
+  <action name="v_toggle_relative_mouse_mode">
+   <rebind input="kb1_f14"/>
+  </action>
   <action name="v_toggle_yaw_roll_swap">
    <rebind input="js1_button5"/>
   </action>
